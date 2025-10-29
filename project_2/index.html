@@ -5,6 +5,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
@@ -12,29 +13,33 @@
       <nav>
         <ul>
           <!-- Navigation is the same on all three html files -->
-          <li><a href="index.html">Homepage</a></li>
+          <li><a href="index.html">Home Page</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="page3.html">Who Am I</a></li>
         </ul>
       </nav>
     </header>
+    <div class="project-1">
+      <h1>Welcome to My Project 1</h1>
+      <p>This Project gives a bit of a preview into who I am!</p>
+    </div>
+    <div class="about-me">
 
-    <h1>Welcome to My Project 1</h1>
-    <p>This Project gives a bit of a preview into who I am!</p>
-
-    <h2>About Me</h2>
-    <p>I'm Christian Garcia, a Student Athlete at Illinois Tech passionate about Soccer, Cars, and Technology.</p>
-    <p>I am passionate about creating projects for fun and building applications whenever an idea sparks into my head.</p>
-    <p>I am a fourth year student here at Illinois Tech and am preparing for the furture in hopes to land a software engineering job.</p>
-
-    <img src = 'images/christian.JPG' alt="headshot photo">
-
-    <h2>Personal Projects</h2>
-    <p>For one of my projects I created a football that is able to measure how much pressure and where the pressure was placed on the football.
-        I was able to complete this by using an ESP32 with a touch sensor board extension. I wrote a script using arduino to keep track of the pressure 
-        that was being read by the conductive rubber cords that were wrapped around the ball to measure the readings.
-    </p>
-    <img src = 'images/snapforce_picture.jpg' alt="Snapforce Picture">
-
+      <h2>About Me</h2>
+      <p>I'm Christian Garcia, a Student Athlete at Illinois Tech passionate about Soccer, Cars, and Technology.</p>
+      <p>I am passionate about creating projects for fun and building applications whenever an idea sparks into my head.</p>
+      <p>I am a fourth year student here at Illinois Tech and am preparing for the furture in hopes to land a software engineering job.</p>
+      
+      <img id="headshot" src = 'images/christian.JPG' alt="headshot photo">
+    </div>
+      <div class="projects">
+        <h2 id="personal-project">Personal Projects</h2>
+        <p id="snapforce-text">For one of my projects I created a football that is able to measure how much pressure and where the pressure was placed on the football.
+          I was able to complete this by using an ESP32 with a touch sensor board extension. I wrote a script using arduino to keep track of the pressure 
+          that was being read by the conductive rubber cords that were wrapped around the ball to measure the readings.
+        </p>
+        <img id="snapforce" src = 'images/snapforce_picture.jpg' alt="Snapforce Picture">
+      </div>
+        
   </body>
 </html>
