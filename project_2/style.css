@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
 body {
     background-color: rgb(183, 183, 183)
 }
@@ -45,7 +47,7 @@ h2 {
 }
 
 p {
-    font-family: "PKMN RBYGSC", monospace;
+    font-family: 'Oswald';
     text-align: center;
     color: white;
 }
