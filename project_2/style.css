@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(183, 183, 183)
 }
 
@@ -6,20 +6,20 @@ nav ul {
     list-style: none;
     font-family: "PKMN RBYGSC", monospace;
     color: white;
-    display:flex;
+    display: flex;
     justify-content: center;
     gap: 20px;
-    
-} 
 
-nav a:hover{
-    color: #72ff95; 
-    
+}
+
+nav a:hover {
+    color: #72ff95;
+
 }
 
 /* page1 */
 
-h1{
+h1 {
     font-family: "PKMN RBYGSC", monospace;
     font-size: 40px;
     text-align: center;
@@ -33,18 +33,18 @@ h1{
 }
 
 @keyframes animate-gradient {
-    to{
+    to {
         background-position: 200%;
-    }    
+    }
 }
 
-h2{
+h2 {
     font-family: "PKMN RBYGSC", monospace;
     text-align: center;
     color: white;
 }
 
-p{
+p {
     font-family: "PKMN RBYGSC", monospace;
     text-align: center;
     color: white;
@@ -56,28 +56,30 @@ p{
     width: 250px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-  }
-#personal-project{
+}
+
+#personal-project {
     color: #fc0505;
 }
 
-.projects{
-    position:absolute;
+.projects {
+    position: absolute;
     bottom: 25px;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     width: 50%;
-    background:black;
+    background: black;
     border: 2px solid #fff;
-    border-radius: 8px; 
+    border-radius: 8px;
     padding: 12px;
-    color:black;
+    color: black;
     font-family: "PKMN RBYGSC";
     font-size: 13px;
     text-align: center;
     box-shadow: 3px 3px 0 #000;
-  }
-#snapforce{
+}
+
+#snapforce {
     display: block;
     margin: 0 auto;
     width: 500px;
@@ -85,29 +87,31 @@ p{
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
+
 /* page2 */
-.resume-container{
-   left: 400px; 
-   position: absolute;
-   text-align: center;
+.resume-container {
+    left: 400px;
+    position: absolute;
+    text-align: center;
 }
 
-#resume-pic{
+#resume-pic {
     width: 250px;
     margin-top: 1rem;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-#res{
+#res {
     position: absolute;
     right: 250px;
     width: 600px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
-#res-name{
-    background: linear-gradient(to right, #fc0505, #fdfdfd, #fa9129, #fdfdfd,#fc0505);
+
+#res-name {
+    background: linear-gradient(to right, #fc0505, #fdfdfd, #fa9129, #fdfdfd, #fc0505);
     background-size: 200%;
     background-clip: text;
     -webkit-background-clip: text;
@@ -116,13 +120,13 @@ p{
 }
 
 .resume-container a:hover {
-    color: #72ff95; 
+    color: #72ff95;
     text-decoration: underline;
-  }
+}
 
 
 /* page3 */
-#name{
+#name {
     background: linear-gradient(to right, #b30000, #000000, #ffffff);
     background-size: 200%;
     background-clip: text;
@@ -132,16 +136,16 @@ p{
 }
 
 @keyframes animate-gradient {
-    to{
+    to {
         background-position: 200%;
-    }    
+    }
 }
 
-#who:hover{
+#who:hover {
     transform: scale(1.2);
 }
 
-#soccer-pic{
+#soccer-pic {
     position: absolute;
     top: 60%;
     left: 400px;
@@ -159,18 +163,17 @@ p{
     width: 400px;
     box-shadow: 3px 3px 0 #000;
     border-radius: 5%;
-  }
-
-
-.bio{
-position: absolute;
-background: transparent;
-width: 50%;
-left:50%;
-text-align: center;
-transform: translateX(-50%);
-background: linear-gradient(to right, #ff416c, #ff4b2b, #ff9100, #ffdd00, #2de2e6, #00b1d2);
-border-radius: 8px;
-
 }
 
+
+.bio {
+    position: absolute;
+    background: transparent;
+    width: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, #ff416c, #ff4b2b, #ff9100, #ffdd00, #2de2e6, #00b1d2);
+    border-radius: 8px;
+
+}
