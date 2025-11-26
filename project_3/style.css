@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&display=swap');
+
+body {
+    background-color: rgb(183, 183, 183)
+}
+
+nav ul {
+    list-style: none;
+    font-family: "PKMN RBYGSC", monospace;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav a:hover {
+    color: #72ff95;
+
+}
+
+/* page1 */
+
+h1 {
+    font-family: "PKMN RBYGSC", monospace;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #fc72ff, #8f68ff, #487bff, #8f68ff, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+h2 {
+    font-family: "PKMN RBYGSC", monospace;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Oswald';
+    text-align: center;
+    color: white;
+}
+
+#headshot {
+    display: block;
+    margin: 2rem auto;
+    width: 250px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#personal-project {
+    color: #fc0505;
+}
+
+.projects {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background: black;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 12px;
+    color: black;
+    font-family: "PKMN RBYGSC";
+    font-size: 13px;
+    text-align: center;
+    box-shadow: 3px 3px 0 #000;
+}
+
+#snapforce {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* page2 */
+.resume-container {
+    left: 400px;
+    position: absolute;
+    text-align: center;
+}
+
+#resume-pic {
+    width: 250px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#res {
+    position: absolute;
+    right: 250px;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#res-name {
+    background: linear-gradient(to right, #fc0505, #fdfdfd, #fa9129, #fdfdfd, #fc0505);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+.resume-container a:hover {
+    color: #72ff95;
+    text-decoration: underline;
+}
+
+
+/* page3 */
+#name {
+    background: linear-gradient(to right, #b30000, #000000, #ffffff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+#who:hover {
+    transform: scale(1.2);
+}
+
+#soccer-pic {
+    position: absolute;
+    top: 60%;
+    left: 400px;
+    width: 400px;
+    box-shadow: 3px 3px 0 #000;
+    border-radius: 5%;
+}
+
+#vid {
+    margin-top: 4em;
+    position: absolute;
+    right: 400px;
+    top: 400px;
+    /* transform: translateY(-50%); */
+    width: 400px;
+    box-shadow: 3px 3px 0 #000;
+    border-radius: 5%;
+}
+
+
+.bio {
+    position: absolute;
+    background: transparent;
+    width: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%);
+    background: linear-gradient(to right, #ff416c, #ff4b2b, #ff9100, #ffdd00, #2de2e6, #00b1d2);
+    border-radius: 8px;
+
+}
