@@ -58,7 +58,7 @@ function initMap() {
     });
 };
 
-google.maps.event.addDomListener(window, 'load', initMap);
+// google.maps.event.addDomListener(window, 'load', initMap);
 
 document.addEventListener("DOMContentLoaded", () => {
     const questionBtn = document.getElementById("questionButton");
