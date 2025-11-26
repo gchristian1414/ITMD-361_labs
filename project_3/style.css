@@ -179,3 +179,72 @@ p {
     border-radius: 8px;
 
 }
+
+/* adding 2 CSS media queries with at least 3 CSS style changes under each. Use the min-width media queries. */
+@media (min-width: 600px) {
+    nav ul {
+        gap: 40px;
+    }
+
+    .about-me {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .projects {
+        /* !important will override the other design and force it to follow this one */
+        position: static !important;
+        transform: none !important;
+        width: 70%;
+        margin: 2rem auto;
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 900px;
+    }
+
+    #headshot {
+        max-width: 600px;
+        border-radius: 5%;
+    }
+}
+
+/* map */
+
+#wrapper {
+    width: 850px;
+    height: 600px;
+    background-color: #00b1d2;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#canvas {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: 30px auto;
+}
+
+.mapBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: "PKMN RBYGSC";
+    cursor: pointer;
+}
